@@ -1,0 +1,33 @@
+MSFLIX.COM.BR E MAYKONSILVEIRA.COM.BR
+
+SITE ICONES
+https://boxicons.com/
+https://github.com/atisawd/boxicons
+
+SLIDE:
+https://swiperjs.com/get-started#use-swiper-from-cdn
+https://swiperjs.com/demos
+
+HEADER:
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+FOOTER:
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+css fontes:
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+CANAL MAYKON SILVEIRA
+https://www.youtube.com/MAYKONSILVEIRA/
+
+AJUDE O CANAL, SEJA UM MEMBRO SÓ R$ 29,90 MENSAIS PARA TER SEU NETFLIX 
+PARA APRENDER COMO CRIAR O SEU NEGÓCIO DIGITAL.
+https://www.youtube.com/MAYKONSILVEIRA/join
+
+ME SIGA NO INSTAGRAM:
+https://www.instagram.com/maykonsilveiramj/
+
+NOVO CURSO LOJA VIRTUAL PHP 8.2
+https://maykonsilveira.com.br/curso-maykon-silveira/36/de-novato-a-empreendedor-programe-sua-loja-virtual-em-php-8-2-e-conquiste-o-mercado-digital
