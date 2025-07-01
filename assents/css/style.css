@@ -177,9 +177,26 @@ nav .menusite ul li a:hover,
 nav .menusite ul li a:active{
     color: var(--cor-principal);
 }
+/*Inicio Submenu*/
+nav .menusite ul li .menusub{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: absolute;
+    top: 7rem;
+    text-align: justify;
+    width: 180px;
+    background-color: var(--cor-branca);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(190, 190, 190, 0.5);
+    padding: 1rem 0 0 ;
+}
+nav .menusite ul li .menusub li{
+    border-bottom: 1px solid rgb(190, 190, 190, 0.5);
+}
 
 
-
+/*Final Submenu*/
 
 
 /*Final cabeçalho do site e nav***************************************************/
