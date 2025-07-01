@@ -92,6 +92,8 @@ html{
 }
 /*Final celular***************************************************/
 /*final do topo superior***************************************************/
+
+
 /*Inicio cabeçalho do site e nav***************************************************/
 .topo-menu-site{
     display: flex;
@@ -107,7 +109,74 @@ html{
     z-index: 111;
     transition: 0.4s ease;
 }
-
+.topo-menu-site .sticky{
+    padding: 0 9.5%;
+}
+.topo-menu-site .logo img{
+    width: 200px;
+}
+.topo-menu-site nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+nav .menusite ul li{
+    padding:  2.5rem 0.5rem;
+}
+nav .menusite .menulinks{
+    display: flex;
+    padding: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+nav .menusite .menulinks li a{
+    position: relative;
+    color: var(--cor-escura);
+    font-size: 1.4rem ;
+    font-weight: 600;
+}
+nav .menuanuciar{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+nav .menuanuciar i {
+    font-size: 1.9rem;
+    color: var(--cor-escura);
+    cursor: pointer;
+}
+nav .menuanuciar .addbtn{
+    position: relative;
+    background: var(--cor-principal);
+    font-size: 1.6rem;
+    padding: 1.2rem 1.5rem;
+    color: var(--cor-branca);
+    border-radius: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.7s;
+}
+nav .menuanuciar .addbtn:hover{
+    background: var(--cor-escura);
+    color: var(--cor-branca);
+}
+nav .menuanuciar .addbtn i,
+nav .menuanuciar .addbtn i:hover{
+    color: var(--cor-branca);
+    padding-right: 0.5rem;
+}
+#menubtn{
+    font-size: 3.5rem;
+}
+nav .menuanuciar i:hover{
+    color: var(--cor-principal);
+}
+nav .menusite ul li a:hover,
+nav .menusite ul li a:active{
+    color: var(--cor-principal);
+}
 
 
 
