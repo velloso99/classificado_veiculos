@@ -90,6 +90,32 @@ html{
         display: none;
     }
 }
-
 /*Final celular***************************************************/
 /*final do topo superior***************************************************/
+/*Inicio cabeçalho do site e nav***************************************************/
+.topo-menu-site{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: sticky;
+    left: 0;
+    top: 0;
+    padding: 0.5rem 9.5%;
+    background: var(--cor-branca);
+    box-shadow: 0 0 5px rgb(190, 190, 190, 0.5), 0 0 10px rgb(190, 190, 190, 0.5);
+    z-index: 111;
+    transition: 0.4s ease;
+}
+
+
+
+
+
+
+/*Final cabeçalho do site e nav***************************************************/
+
+
+
+
+
