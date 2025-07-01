@@ -72,8 +72,24 @@ html{
 .super-topo .super-topo-box .super-topo-box-corpo .col-2 a i{
     padding-right: 0.5rem;
 }
-.super-topo .super-topo-box .super-topo-box-corpo .col-2  i:hover,
+.super-topo .super-topo-box .super-topo-box-corpo .col-2 i:hover,
 .super-topo .super-topo-box .super-topo-box-corpo .col-2 a:hover{
     color: var(--cor-principal);
 }
+/*Incio celular***************************************************/
+@media(max-width:1150px){
+    .super-topo .super-topo-box .super-topo-box-corpo .col-1 {
+        margin-left: 8rem;
+    }
+    .super-topo .super-topo-box .super-topo-box-corpo .col-2 {
+        margin-left: 8rem;
+    }
+}
+@media(max-width:991px){
+    .super-topo{
+        display: none;
+    }
+}
+
+/*Final celular***************************************************/
 /*final do topo superior***************************************************/
