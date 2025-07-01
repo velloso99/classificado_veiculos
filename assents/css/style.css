@@ -204,8 +204,14 @@ nav .menusite ul li .menusub li{
     z-index: 100;
     overflow: hidden;
 }
-
-
+nav .menusite ul li .menusub li a{
+    font-size: 1.2rem;
+    transition: 0.4s ease;
+}
+nav .menusite ul li .menusub li a:hover{
+    font-size: 1.3rem;
+    padding-left: 0.5rem;
+}
 /*Final Submenu*/
 
 
