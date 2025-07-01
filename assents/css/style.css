@@ -190,9 +190,19 @@ nav .menusite ul li .menusub{
     border-radius: 10px;
     box-shadow: 0 0 5px rgb(190, 190, 190, 0.5);
     padding: 1rem 0 0 ;
+    display: none;
+}
+nav .menusite ul li {
+    transition: 0.4s ease;
+}
+nav .menusite ul li:hover .menusub{
+    display: flex;
 }
 nav .menusite ul li .menusub li{
     border-bottom: 1px solid rgb(190, 190, 190, 0.5);
+    padding: 0.5rem 0 1rem 1rem;
+    z-index: 100;
+    overflow: hidden;
 }
 
 
