@@ -15,5 +15,7 @@ html{
     font-size: 65.5%;
 }
 :root{
-    
+    --cor-principal: #d117ff;
+    --cor-branca: #ffffff;
+    --cor-escura: #340474;
 }
