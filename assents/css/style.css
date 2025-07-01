@@ -20,19 +20,37 @@ html{
     --cor-escura: #340474;
 }
 /*Inicio do topo superior************************************************/
-
 .super-topo .super-topo-box {
     width: 100%;
     background: var(--cor-principal);
 }
 .super-topo .super-topo-box .super-topo-box-corpo{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--cor-branca);
+    padding: 1rem 0;
+    background: var(--cor-escura);
+    clip-path: polygon(8% 0%, 92% 0%, 96% 100%, 5% 100%);
+
+}
+.super-topo .super-topo-box .super-topo-box-corpo.col-1 {
+    display: flex;
     gap: 1rem;
     align-items: center;
     justify-content: center;
     color: var(--cor-branca);
     margin-left: 13rem;
-
 }
+.super-topo .super-topo-box .super-topo-box-corpo.col-1 span{
+    font-size: 1 .1rem;
+}
+.super-topo .super-topo-box .super-topo-box-corpo.col-1 span i{
+    color: var(--cor-principal);
+    padding-right: 0.5rem;
+    font-size: 1 .1rem;
+}
+
+
 
 /*final do topo superior***************************************************/
