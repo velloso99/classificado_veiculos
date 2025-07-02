@@ -213,8 +213,38 @@ nav .menusite ul li .menusub li a:hover{
     padding-left: 0.5rem;
 }
 /*Final Submenu*/
+/*Inicio Submenu 2*/
+.menusub li .submenu-2{
+    position: absolute;
+    left: 182px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    margin-top:-3rem ;
+    align-items: left;
+    text-align: justify;
+    padding: 1rem 0  0 ;
+    background-color: var(--cor-branca);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(190, 190, 190, 0.5);
+    z-index: 111;
+    overflow: hidden;
+    display: none;
+}
+.menusub li:hover .submenu-2{
+    display: flex;
+}
 
-
+.menusub li .setalado{
+    position: absolute;
+    left: 150px;
+    top: 5px;
+    color: var(--cor-escura);
+}
+.menusub li:hover .setalado{
+    color: var(--cor-principal);
+}
+/*Final Submenu 2*/
 /*Final cabeçalho do site e nav***************************************************/
 
 
