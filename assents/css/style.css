@@ -213,8 +213,8 @@ nav .menusite ul li .menusub li a:hover{
     padding-left: 0.5rem;
 }
 /*Final Submenu*/
-/*Inicio Submenu 2*/
-.menusub li .submenu-2{
+/*Inicio menu 2*/
+.menusub li .menusub-dois{
     position: absolute;
     left: 182px;
     width: 180px;
@@ -231,7 +231,7 @@ nav .menusite ul li .menusub li a:hover{
     overflow: hidden;
     display: none;
 }
-.menusub li:hover .submenu-2{
+.menusub li:hover .menusub-dois{
     display: flex;
 }
 
@@ -245,6 +245,59 @@ nav .menusite ul li .menusub li a:hover{
     color: var(--cor-principal);
 }
 /*Final Submenu 2*/
+/*Inicio Celuar*/
+@media(max-width:1370px){
+    nav .menusite ul li{
+        gap: 1rem;
+    }
+    nav .menusite ul li .menulinks{
+        gap: 0.5rem;
+    }
+}
+@media(max-width:1190px){
+    nav .menusite ul li{
+        padding: 2.1rem 0;
+    }
+    nav ,.menuanuciar .addbtn{
+        display: none;
+    }  
+}
+@media(max-width:991px){
+    nav .menusite .menulinks{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: block;
+        background: var(--cor-branca);
+        box-shadow: 0 0 5px rgb(190, 190, 190, 0.5), 0 0 10px rgb(190, 190, 190, 0.5) ;
+        padding-left: 30px;
+        transition: 0.5s ease-in-out; 
+        display: none;
+    }
+    nav .menusite .menulinks.active{
+        display: block;
+    }
+    .topo-menu-site.sticky{
+        padding: 0.6rem 9.5%;
+    }
+    nav .menusite ul li{
+        padding: 1rem 0;
+    }
+    nav .menusite ul li .menusub{
+        position: sticky;
+        display: none;
+    }
+    .menusub li .menusub-dois{
+        position: sticky;
+        margin-top: 0rem;
+    }
+    nav .menuanuciar i.cart{
+        display: none;
+    }
+
+}
+/*Fim Celuar*/
 /*Final cabeçalho do site e nav***************************************************/
 
 
