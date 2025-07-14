@@ -295,7 +295,14 @@ nav .menusite ul li .menusub li a:hover{
     nav .menuanuciar i.cart{
         display: none;
     }
-
+}
+@media(max-width:420px){
+    .topo-menu-site.logo img{
+        width: 120px;
+    }
+    nav .menusite .menulinks{
+        top: 4.6rem;
+    }
 }
 /*Fim Celuar*/
 /*Final cabeçalho do site e nav***************************************************/
