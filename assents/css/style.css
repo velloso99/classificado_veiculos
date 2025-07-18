@@ -307,7 +307,54 @@ nav .menusite ul li .menusub li a:hover{
 /*Fim Celuar*/
 /*Final cabeçalho do site e nav***************************************************/
 /*inicio do slide****************************************************/
+.slide-destaque .slide{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:110%;
+    padding: 0 150rem;  
+}
+.slide-destaque .slide .col-1{
+    flex: 1 1 20rem;
+}
+.slide-destaque .slide .col-1 h4{
+    font-size: 2.5rem;
+    color: var(--cor-principal);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 3rem;
+}
+.slide-destaque .slide .col-1 h1{
+    font-size: 3.2rem;
+    color: var(--cor-branca);
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+.slide-destaque .slide .col-1 span{
+    color: var(--cor-principal);
+}
+.slide-destaque .slide .col-1 p{
+    font-size: 1.4rem;
+    color: var(--cor-branca);
+    letter-spacing: 2px;
+    padding-top: 4rem;
+}
+.slide-destaque .slide .col-1 .button{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+    gap: 1rem;
+}
 
+
+
+
+
+
+
+/*Fim do slide****************************************************/
 
 
 
