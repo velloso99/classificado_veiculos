@@ -351,18 +351,58 @@ nav .menusite ul li .menusub li a:hover{
     font-size: 1.7rem;
     font-weight: 600;
     letter-spacing: 2px;
-    border-radius: 1opx;
+    border-radius: 10px;
     position: relative;
-    pad: 1.8rem 2.8rem 1.8rem 2rem;
+    padding: 1.8rem 2.8rem 1.8rem 2rem;
     transition: 0.5s ease;
     cursor: pointer;
 }
+.slide-destaque .slide .col-1 .button a i{
+    font-size: 2.5rem;
+    position: absolute;
+    top: 33%;
+    right: -1rem;
+    transform: translate(-40%);
+
+}
+.slide-destaque .slide .col-1 .button a.lojasbtn{
+    background: var(--cor-principal);
+    color: var(--cor-branca);
+}
+.slide-destaque .slide .col-1 .button a.sobrebtn{
+    background: var(--cor-branca);
+    color: var(--cor-principal);
+}
+.slide-destaque .slide .col-1 .button a.lojasbtn:hover,
+.slide-destaque .slide .col-1 .button a.sobrebtn:hover{
+    background: var(--cor-escura);
+    color: var(--cor-branca);
+}
+.slide-destaque .slide .col-2{
+    flex: 1 1 40rem;
+    padding-top: 3rem;
+}
+.slide-destaque .slide .col-2 img{
+    width: 80%;
+    height: auto;
+}
+
+.slide-destaque .swiper [class^="swiper-button-"]{
+    color: var(--cor-branca);
+    background: rgba(171,13,211, 0.5);
+    padding: 2.5rem;
+}
+.slide-destaque .swiper [class^="swiper-button-"]:hover{
+    background: var(--cor-principal);  
+}
+.slide-destaque .swiper [class^="swiper-button-"]::before{
+   font-size: 2rem;
+}
+/*Inicio celular slide****************************************************/
 
 
 
-
-
-
+/*Inicio celular slide****************************************************/
 /*Fim do slide****************************************************/
 
 
