@@ -387,7 +387,7 @@ nav .menusite ul li .menusub li a:hover{
     height: auto;
 }
 
-.slide-destaque .swiper [class^="swiper-button-"]{
+.slide-destaque .swiper[class^="swiper-button-"]{
     color: var(--cor-branca);
     background: rgba(171,13,211, 0.5);
     padding: 2.5rem;
