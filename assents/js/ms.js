@@ -6,7 +6,7 @@ let menudois = document.querySelector("#menubtn");
 menudois.onclick = () => {
     menu.classList.toggle('active');
 }
-/*menu do site*/
+/*scroll*/
 window.onscroll = () =>{
     let topoSite = document.querySelector("header");
 
@@ -15,7 +15,7 @@ window.onscroll = () =>{
 
 
 /*slide destaque*/
-var swiper = new Swiper(".msSlider",{
+var swiper = new Swiper(".msslider",{
     spaceBetween: 30,
     centeredSlide: true,
     loop: true,
