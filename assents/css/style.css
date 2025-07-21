@@ -517,6 +517,15 @@ nav .menusite ul li .menusub li a:hover{
         padding: 0 0;;
     }
 }
-
+@media(max-width: 991px){
+    .filtro .filtro-linha{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(max-width: 768px){
+    .filtro .filtro-linha{
+        grid-template-columns: 1fr 1fr;
+    }
+}
 /*Fim celular busca*/
 /*Fim busca do site****************************************************/
