@@ -486,10 +486,27 @@ nav .menusite ul li .menusub li a:hover{
     border: 1px solid var(--cor-escura);
     padding: 0 1rem;
     color: var(--cor-escura);
+    border-radius: 5px;
 }
-
-
-
-
+.filtro .filtro-linha select option{
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--cor-escura);
+}
+.busca-site .busca-site-btn button{
+    font-size: 1.5rem;
+    background: var(--cor-principal);
+    color: var(--cor-branca);
+    padding: 1.3rem 2rem;
+    margin-top: 4px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.busca-site .busca-site-btn button i{
+    padding-right: 0.5rem;
+}
+.busca-site .busca-site-btn button:hover{
+    background-color: var(--cor-escura) ;
+}
 
 /*Fim busca do site****************************************************/
