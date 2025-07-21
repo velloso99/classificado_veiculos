@@ -508,5 +508,15 @@ nav .menusite ul li .menusub li a:hover{
 .busca-site .busca-site-btn button:hover{
     background-color: var(--cor-escura) ;
 }
+/*Inicio celular busca*/
+@media(max-width: 1500px){
+    .busca-site .filtro{
+        max-width: 100%;
+    }
+    .busca-site{
+        padding: 0 0;;
+    }
+}
 
+/*Fim celular busca*/
 /*Fim busca do site****************************************************/
