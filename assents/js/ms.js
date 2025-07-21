@@ -15,7 +15,7 @@ window.onscroll = () =>{
 
 
 /*slide destaque*/
-var swiper = new Swiper(".msslider",{
+var swiper = new Swiper(".msSlider",{
     spaceBetween: 30,
     centeredSlide: true,
     loop: true,
