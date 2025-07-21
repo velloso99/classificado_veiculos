@@ -527,5 +527,21 @@ nav .menusite ul li .menusub li a:hover{
         grid-template-columns: 1fr 1fr;
     }
 }
+@media(max-width: 600px){
+    .filtro .filtro-linha{
+        gap: 5rem;
+    }
+}
+@media(max-width: 450px){
+    .filtro .filtro-linha{
+        grid-template-columns: 1fr;
+    }
+    .filtro .filtro-linha select{
+        width: 100%;
+    }
+    .filtro .busca-site-btn button{
+        width: 100%;
+    }
+}
 /*Fim celular busca*/
 /*Fim busca do site****************************************************/
