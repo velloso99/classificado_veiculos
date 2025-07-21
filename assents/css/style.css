@@ -18,6 +18,7 @@ html{
     --cor-principal: #d117ff;
     --cor-branca: #ffffff;
     --cor-escura: #340474;
+    --cor-bg-busca: #f2f2f2f2;
 }
 /*Inicio do topo superior************************************************/
 .super-topo .super-topo-box {
@@ -444,9 +445,19 @@ nav .menusite ul li .menusub li a:hover{
 /*Fim do slide****************************************************/
 /*Incio busca do site****************************************************/
 .busca-site{
-    
+    position: relative;
+    background: var(--cor-bg-busca);
+    padding: 0 16rem;
 }
-
+.busca-site .filtro{
+    max-width: 1200px;
+    width: 100%;
+    padding: 2.5rem;
+    position: absolute;
+    top: -7rem;
+    z-index: 111;
+    background: var(--cor-branca);
+}
 
 
 
