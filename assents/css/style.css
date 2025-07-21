@@ -457,7 +457,38 @@ nav .menusite ul li .menusub li a:hover{
     top: -7rem;
     z-index: 111;
     background: var(--cor-branca);
+    box-shadow: 0 0 5px rgba(190,190,190, 0.5), 0 0 10px rgb(190, 190, 190, 0.5);
+    overflow: hidden;
 }
+.filtro .filtro-linha{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 3rem;
+    align-items: center;
+}
+.filtro h3{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--cor-escura);
+    letter-spacing: 1px;
+    padding-bottom: 2rem;
+}
+.filtro .filtro-linha h4{
+   font-size: 1.7rem; 
+   color: var(--cor-escura);
+   padding-bottom: 1.5rem;
+}
+.filtro .filtro-linha select{
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 200px;
+    height: 45px;
+    border: 1px solid var(--cor-escura);
+    padding: 0 1rem;
+    color: var(--cor-escura);
+}
+
+
 
 
 
