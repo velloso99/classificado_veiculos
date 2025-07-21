@@ -1,8 +1,6 @@
 let menu = document.querySelector(".menulinks");
 let menudois = document.querySelector("#menubtn");
 
-
-
 menudois.onclick = () => {
     menu.classList.toggle('active');
 }
@@ -12,7 +10,6 @@ window.onscroll = () =>{
 
     topoSite.classList.toggle('sticky', window.scrollY> 100);
 }
-
 
 /*slide destaque*/
 var swiper = new Swiper(".mySwiper", {
