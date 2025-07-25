@@ -615,8 +615,15 @@ section{
     color: var(--cor-escura);
     padding-bottom: 1rem;
 }
-
-
+.sobrenos .col-4 .p1{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.sobrenos .col-4 .p1 i{
+    font-size: 1.6rem;
+    color: var(--cor-principal);
+    padding-right: 0.5rem;
+}
 
 
 
