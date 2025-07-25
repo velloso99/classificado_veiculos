@@ -560,7 +560,7 @@ section{
     padding-top: 35rem;
 }
 .sobrenos .col-3{
-    flex: 1 120rem;
+    flex: 1 1 20rem;
     position: relative;  
 }
 .sobrenos .col-3 img.s-img-um{
@@ -588,6 +588,34 @@ section{
 .sobrenos .col-3 .s-valor img.s-img-dois{
     width: 80px;
 }
+.sobrenos .col-4{
+    flex: 1 1 20rem;
+}
+.sobrenos .col-4 h4{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--cor-principal);
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+}
+.sobrenos .col-4 h4 i{
+    padding-right: 0.5rem;
+}
+.sobrenos .col-4 h3{
+    font-size: 4rem;
+    text-transform: capitalize;
+    color: var(--cor-escura);
+   padding-bottom: 2rem;
+}
+.sobrenos .col-4 h3 span{
+    color: var(--cor-principal);
+}
+.sobrenos .col-4 p.text{
+    font-size: 1.4rem;
+    color: var(--cor-escura);
+    padding-bottom: 1rem;
+}
+
 
 
 
