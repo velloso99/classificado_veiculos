@@ -308,6 +308,7 @@ nav .menusite ul li .menusub li a:hover{
 }
 /*Fim Celuar*/
 /*Final cabeçalho do site e nav***************************************************/
+
 /*inicio do slide****************************************************/
 .slide-destaque .slide{
    display: flex; 
@@ -444,6 +445,7 @@ nav .menusite ul li .menusub li a:hover{
 }
 /*Inicio celular slide*/
 /*Fim do slide****************************************************/
+
 /*Incio busca do site****************************************************/
 .busca-site{
     position: relative;
@@ -546,6 +548,7 @@ nav .menusite ul li .menusub li a:hover{
 }
 /*Fim celular busca*/
 /*Fim busca do site****************************************************/
+
 /*Incio Sobre Nós****************************************************/
 section{
     padding: 2.5rem 16rem;
@@ -702,17 +705,66 @@ section{
         font-size: 2.4rem;
     }
 }
-
-
-
 /*Fim celular */
-
-
-
-
-
-
 /*Fim Sobre Nós****************************************************/
 
+/*Incio Contador site****************************************************/
+.contador{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    width: 100%;
+    min-width: 50vh;
+    background: url("../img/contador/bg-contador.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contador .contador-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
-
+}
+.contador .contador-box img{
+    width: 70px;
+    height: 70px;
+    background-color: var(--cor-branca);
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+.contador .contador-box span.numero{
+    color: var(--cor-branca);
+    font-size: 3.2rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+.contador .contador-box span.text{
+    color: var(--cor-branca);
+    font-size: 1.5rem;
+    font-weight: 500;  
+}
+.contador .contador-box span.text i{
+    padding-right:  0.5rem;
+}
+/*Inicio celular */
+@media(max-width: 1280px){
+    .contador{
+        padding: 2rem 10rem;
+    }
+}
+@media(max-width: 991px){
+    .contador{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width: 768px){
+    .contador{
+        padding: 2rem 7rem;
+    }
+}
+/*Fim celular */
+/*Fim Contador site****************************************************/

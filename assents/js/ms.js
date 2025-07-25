@@ -29,5 +29,22 @@ var swiper = new Swiper(".msSlider", {
     },
 });
 
+/*Contador de veiculos*/
+let campoConta = document.querySelectorAll(".numero");
+
+let intervalo = 1000;
+campoConta.forEach((campoConta) =>{
+    let valorInicial = 0;
+    let finalValor= parseInt(campoConta.getAttribute("msflix-c-valor"));
+    let duracao = Math.floor(intervalo/finalValor);
+    let Contador = setInterval(function(){
+        valorInicial +=1;
+        campoConta.textContent = valorInicial;
+        if(valorInicial == finalValor){
+            clearInterval(Contador);
+        }
+    }, duracao);
+
+});
 
 
