@@ -19,6 +19,7 @@ html{
     --cor-branca: #ffffff;
     --cor-escura: #340474;
     --cor-bg-busca: #f2f2f2f2;
+    --s-valor-bg: #141622;
 }
 /*Inicio do topo superior************************************************/
 .super-topo .super-topo-box {
@@ -545,3 +546,56 @@ nav .menusite ul li .menusub li a:hover{
 }
 /*Fim celular busca*/
 /*Fim busca do site****************************************************/
+/*Incio Sobre Nós****************************************************/
+section{
+    padding: 2.5rem 16rem;
+    background: var(--cor-bg-busca);
+}
+.sobrenos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35rem;
+}
+.sobrenos .col-3{
+    flex: 1 120rem;
+    position: relative;  
+}
+.sobrenos .col-3 img.s-img-um{
+    width: 100%;
+    height: 45rem;
+}
+.sobrenos .col-3 .s-valor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    padding: 1rem;
+    background-color: var(--s-valor-bg);
+    border-radius: 20px;
+}
+.sobrenos .col-3 .s-valor span{
+    color: var(--cor-branca);
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.sobrenos .col-3 .s-valor img.s-img-dois{
+    width: 80px;
+}
+
+
+
+
+
+
+
+/*Fim Sobre Nós****************************************************/
+
+
+
