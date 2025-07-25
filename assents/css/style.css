@@ -624,6 +624,27 @@ section{
     color: var(--cor-principal);
     padding-right: 0.5rem;
 }
+.sobrenos .col-4 a{
+    font-size: 1.6rem;
+    color: var(--cor-branca);
+    background-color: var(--cor-principal);
+    position: relative;
+    margin-top: 2.5rem;
+    padding: 1.5rem 3.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.sobrenos .col-4 a:hover{
+    background-color: var(--cor-escura);
+    color: var(--cor-branca);
+}
+.sobrenos .col-4 a i{
+    font-size: 2rem;
+    position: absolute;
+    top: 20px;
+}
+
 
 
 
