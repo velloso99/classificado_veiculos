@@ -913,7 +913,11 @@ section h1 span{
         font-size: 2.8rem;
     }
 }
-
+@media(max-width: 450px){
+    section h1{
+        font-size: 2rem;
+    }
+}
 
 /*Fim celular */
 /*Fim veiculos recentes****************************************************/
