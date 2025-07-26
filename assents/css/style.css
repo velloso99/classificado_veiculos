@@ -795,7 +795,79 @@ section h1 span{
     color: var(--cor-principal);
 }
 .carrosRecentes .cr-linha{
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+.cr-linha .cr-col{
+    padding: 1rem;
+    box-shadow:  0 0 5px var(--cor-escura);
+    background: var(--cor-branca);
+    border-radius: 5px;
+    text-align: justify; 
+}
+.cr-linha .cr-col .img-cr{
+    width: 100%;
+    height: 15rem;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+.cr-linha .cr-col .img-cr img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.cr-linha .cr-col .img-cr:hover img{
+    transform: scale(1.3);
+}
+.cr-linha .cr-col h5{
+    font-size: 1.8rem;
+    color: var(--cor-escura);
+    padding: 1rem 0;
+}
+.cr-linha .cr-col .classificacao{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+.cr-col .cl-estrela i{
+    font-size: 1.4rem;
+    color: var(--cor-principal);
+}
+.cr-col .cl-estrela .cl-ce-estrelas span{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--cor-escura);
+}
+.cr-col .cr-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:  0.5rem;
+    padding-bottom: 0.5rem;
+}
+.cr-col .cr-info span{
+    font-size: 1.1rem;
+    color: var(--cor-escura);
+}
+.cr-col .cr-info i{
+    padding-right: 0.3rem;
+    color: var(--cor-principal);
+}
+.cr-col .cr-valor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cr-col .cr-valor p{
+    font-size: 1.8rem;
+    color: var(--cor-principal);
+    font-weight: 600;
 }
 
 
