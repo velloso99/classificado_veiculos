@@ -768,3 +768,40 @@ section{
 }
 /*Fim celular */
 /*Fim Contador site****************************************************/
+
+/*Incio veiculos recentes****************************************************/
+.carrosRecentes{
+    text-align: center;
+    padding-top: 7rem;
+}
+section h4{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--cor-principal);
+    letter-spacing: 2px;
+    text-transform: uppercase;   
+}
+section h4 i{
+    padding-right: 0.5rem;;
+}
+section h1{
+    color: var(--cor-escura);
+    font-size: 4.7rem;
+    letter-spacing: 1px;
+    padding-bottom: 4rem;
+    text-transform: capitalize;
+}
+section h1 span{
+    color: var(--cor-principal);
+}
+.carrosRecentes .cr-linha{
+    
+}
+
+
+
+
+
+
+
+/*Fim veiculos recentes****************************************************/
