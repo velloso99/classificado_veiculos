@@ -960,11 +960,24 @@ section h1 span{
 }
 /*Inicio celular */
 @media(max-width: 1350px){
-    .{
-        grid-template-columns: 1fr 1fr;
+    .departamento .dep-linha{
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
     }
 }
-
-
+@media(max-width: 768px){
+    .departamento .dep-linha{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(max-width: 600px){
+    .departamento .dep-linha{
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+@media(max-width: 450px){
+    .departamento .dep-linha{
+        grid-template-columns: 1fr;
+    }
+}
 /*Fim celular */
 /*FIm Departamento****************************************************/
