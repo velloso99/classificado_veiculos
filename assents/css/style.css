@@ -1059,8 +1059,101 @@ section h1::after{
 .play .play-btn::after{
     animation-delay: 0.5s;
 }
-
 /*Fim play****************************************************/
+
+/*Inicio revendas****************************************************/
+.revendas{
+    background: var(--cor-branca);
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+.revendas .revenda-linha{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2.5rem;
+}
+.revenda-linha .revenda-col{
+    position: relative;
+    width: 100%;
+    text-align: justify;
+    background-color: var(--cor-branca);
+    box-shadow: 0 0 5px var(--cor-escura);
+    border-radius: 12px;
+    transition: 0.5s ease;
+}
+.revenda-linha .revenda-col:hover{
+    transform: translateY(-10px);
+}
+.revenda-linha .revenda-col .revenda-img{
+    background-color: var(--cor-bg-busca);
+    border-radius: 12px;
+}
+.revenda-linha .revenda-col .revenda-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+.revenda-linha .revenda-col .revenda-total-veiculos{
+    background-color: var(--cor-principal);
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 1.3rem;
+    color: var(--cor-branca);
+    border-radius: 40px;
+    padding: 0.7rem 1.4rem;
+}
+.revenda-linha .revenda-col h5{
+    font-size: 1.6rem ;
+    padding: 1rem 0;
+}
+.revenda-linha .revenda-col p{
+    font-size: 1.3rem;
+    color: var(--cor-escura);
+    padding-bottom: 1rem;
+}
+.revenda-linha .revenda-col p i{
+    color: var(--cor-principal);
+    padding-right: 0.5rem;
+}
+/*Inicio celular */
+@media(max-width: 1250px){
+    .revendas .revenda-linha{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .revenda-linha .revenda-col .revenda-img img{
+    width: 100%;
+    height: auto;
+    }
+}
+@media(max-width: 991px){
+    .revendas .revenda-linha{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .revenda-linha .revenda-col .revenda-img img{
+    width: 100%;
+    height: auto;
+    }
+}
+@media(max-width: 450px){
+    .revendas .revenda-linha{
+        grid-template-columns: 1fr;
+    }
+    .revenda-linha .revenda-col .revenda-img img{
+    width: 100%;
+    height: auto;
+    }
+}
+
+
+/*Fim celular */
+/*Fim revendas****************************************************/
+
+
+
+
+
 
 
 
