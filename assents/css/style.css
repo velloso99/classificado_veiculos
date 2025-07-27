@@ -1031,7 +1031,6 @@ section h1::after{
     font-size: 5rem;
     line-height: 100px;
     color: var(--cor-principal);
-
 }
 .play .play-btn::before,
 .play .play-btn::after{
@@ -1042,9 +1041,24 @@ section h1::after{
     right: -20px;
     bottom: -20px;
     border: 6px solid rgba(171,13,211, 0.5);
-    
+    border-radius: 50%;
+    animation: animar 1.5s linear infinite;
+    opacity: 1;
 }
-
+@keyframes animar{
+    0%{
+        transform: scale(0.5);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}
+.play .play-btn::after{
+    animation-delay: 0.5s;
+}
 
 /*Fim play****************************************************/
 
