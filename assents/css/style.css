@@ -921,3 +921,18 @@ section h1 span{
 
 /*Fim celular */
 /*Fim veiculos recentes****************************************************/
+
+/*Inicio Departamento****************************************************/
+.departamento{
+    background: var(--cor-branca);
+    text-align: center;
+    padding: 7rem;
+    padding-bottom: 3rem;
+}
+
+
+
+
+
+
+/*FIm Departamento****************************************************/
