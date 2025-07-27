@@ -1022,8 +1022,28 @@ section h1::after{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.play .play-btn{
+    position: relative;
+    background-color: var(--cor-branca);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 5rem;
+    line-height: 100px;
+    color: var(--cor-principal);
 
-
+}
+.play .play-btn::before,
+.play .play-btn::after{
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    border: 6px solid rgba(171,13,211, 0.5);
+    
+}
 
 
 /*Fim play****************************************************/
