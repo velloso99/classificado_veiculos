@@ -943,12 +943,28 @@ section h1 span{
 }
 .dep-linha .dep-col:hover{
     transform: translateY(-10px);
+    box-shadow: 0 0 5px var(--cor-escura);
 }
 .dep-linha .dep-col img{
     width: 100%;
     height: auto;
     object-fit: cover;
 }
+.dep-linha .dep-col h5{
+    font-size: 1.8ren;
+    font-weight: 600;
+    color: var(--cor-escura);
+}
+.dep-linha .dep-col:hover h5{
+    color: var(--cor-principal); 
+}
+/*Inicio celular */
+@media(max-width: 1350px){
+    .{
+        grid-template-columns: 1fr 1fr;
+    }
+}
 
 
+/*Fim celular */
 /*FIm Departamento****************************************************/
