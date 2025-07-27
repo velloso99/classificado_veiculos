@@ -929,10 +929,26 @@ section h1 span{
     padding: 7rem;
     padding-bottom: 3rem;
 }
-
-
-
-
+.departamento .dep-linha{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.dep-linha .dep-col{
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--cor-bg-busca);
+    border-radius: 12px;
+    box-shadow: 0 0 5px var(--cor-escura);
+    transition: 0.4s ease;
+}
+.dep-linha .dep-col:hover{
+    transform: translateY(-10px);
+}
+.dep-linha .dep-col img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
 
 /*FIm Departamento****************************************************/
