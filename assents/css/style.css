@@ -785,6 +785,8 @@ section h4 i{
     padding-right: 0.5rem;;
 }
 section h1{
+    position:relative ;
+    margin-bottom: 6rem;
     color: var(--cor-escura);
     font-size: 4.7rem;
     letter-spacing: 1px;
@@ -794,6 +796,29 @@ section h1{
 section h1 span{
     color: var(--cor-principal);
 }
+section h1::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    padding: absolute ;
+    left: 50%;
+    bottom: 0;
+    background: var(--cor-branca);
+    border: 4px solid var(--cor-principal);
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+section h1::after{
+    content: '';
+    width: 20px;
+    height: 10px;
+    padding: absolute ;
+    left: 48%;
+    bottom: 1.1rem;
+    border-radius: 40px;
+    transform: translateX(-50%);
+}
+
 .carrosRecentes .cr-linha{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
