@@ -1323,12 +1323,52 @@ section h1::after{
         font-size: 2.4rem;
     }
 }
-
-
 /*fim celular */
-
 /*Fim das melhores mercas****************************************************/
 
+/*Inicio depoimentos****************************************************/
+.depoimentos{
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+.depoimentos .slide{
+    background-color: var(--cor-branca);
+    box-shadow: 0 0 2px var(--cor-escura);
+    padding: 1rem;
+}
+.depoimentos .slide img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: top;
+    background: var(--cor-principal);
+    border-radius: 50% ;
+    padding: 0.5rem;
+}
+.depoimentos .slide h5{
+    font-size: 1.8rem;
+    color: var(--cor-escura);
+    padding: 0.5rem;
+}
+.depoimentos .slide span{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--cor-principal);
+}
+.depoimentos .slide p{
+    font-size: 1.4rem;
+    color: var(--cor-escura);
+}
+.depoimentos .slide i{
+    color: var(--cor-principal);
+    font-size: 1.2rem;
+}
 
 
+
+
+/*Inicio celular */
+/*Fim celular */
+/*Fim  depoimentos****************************************************/
 

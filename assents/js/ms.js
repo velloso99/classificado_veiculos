@@ -47,4 +47,29 @@ campoConta.forEach((campoConta) =>{
 
 });
 
+/*slide depoimento clientes*/
+var swiper = new Swiper(".meusDepoimentos", {
+    slidesPerView:1 ,
+    spaceBetween: 10,
+    centeredSlides: true,
+    autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+    },
+    breakpoints: {
+        640:{
+        slidesPerView:1 ,
+        spaceBetween: 20,
+        },
+        768:{
+        slidesPerView: 2 ,
+        spaceBetween: 40, 
+        },
+        1024:{
+        slidesPerView: 3 ,
+        spaceBetween: 50, 
+        }
+    },
+});
+
 
