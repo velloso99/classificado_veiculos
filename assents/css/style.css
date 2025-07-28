@@ -1150,14 +1150,40 @@ section h1::after{
 
 /*Incio gerador de valor****************************************************/
 .gerarvalor{
-    
+    width: 100%;
+    background-color: var(--cor-escura);
 }
-
-
-
-
-
-
+.gerarvalor .g-v-linha{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem 0;
+}
+.gerarvalor .g-v-linha .col-1{
+    display: flex;
+    flex: 1 1 10rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+.gerarvalor .g-v-linha .col-1.centro{
+    padding-top: 6rem;
+}
+.gerarvalor .g-v-linha .col-2{
+    flex: 1 1 30rem;
+}
+.gerarvalor .g-v-linha .col-2 img{
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+}
+.gerarvalor .g-v-linha .col-2 img:hover{
+    transform: translateY(-20px);
+}
+.g-v-linha .col-1 .g-v-1{
+    background-color: var(--cor-branca);
+    border-radius: 12px;
+    padding: 1.3rem;
+}
 
 
 
