@@ -1364,11 +1364,72 @@ section h1::after{
     color: var(--cor-principal);
     font-size: 1.2rem;
 }
+/*Inicio celular */
+/*Fim celular */
+/*Fim  depoimentos****************************************************/
 
+/*Inicio Baixar app****************************************************/
+section h1.baixar-titulo{
+    font-size: 3.5rem;
+    margin-bottom: 0;
+    padding: 1rem;
+}
+section h1.baixar-titulo::before{
+    border: none;
+    background: transparent;
+}
+section h1.baixar-titulo::after{
+    background: transparent;
+}
+.baixarapp{
+    background: var(--cor-branca);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.baixarapp .baixar-linha{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--cor-bg-busca);
+    border-radius: 10px;
+    padding: 2rem;
+    overflow: hidden;
+}
+.baixarapp .baixar-linha .baixar-col{
+    flex: 1 1 20rem;
+
+}
+.baixar-linha .baixar-col p.texto{
+    font-size: 1.8rem;
+    color: var(--cor-escura);
+    padding-bottom: 2rem;
+}
+.baixar-linha .baixar-col .baixar-box{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.baixar-linha .baixar-col .baixar-box a{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    border-radius: 30px;
+    padding: 1rem 3rem;
+}
+.baixar-linha .baixar-col .baixar-box a img{
+    width: 40px;
+    height: 40px;
+    color: var(--cor-branca);
+}
 
 
 
 /*Inicio celular */
 /*Fim celular */
-/*Fim  depoimentos****************************************************/
+/*Fim Baixar app****************************************************/
+
+
+
+
 
