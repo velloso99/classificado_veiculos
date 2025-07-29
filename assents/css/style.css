@@ -1422,6 +1422,41 @@ section h1.baixar-titulo::after{
     height: 40px;
     color: var(--cor-branca);
 }
+.baixar-linha .baixar-col .baixar-box a span{
+    font-size: 1.3rem;
+    color: var(--cor-branca);
+}
+.baixar-linha .baixar-col .baixar-box a p{
+    font-size: 1.5rem;
+    color: var(--cor-branca);
+}
+.baixar-linha .baixar-col .baixar-box a.google{
+    background: var(--cor-principal);
+    color: var(--cor-branca);
+    transition: 0.4s;
+}
+.baixar-linha .baixar-col .baixar-box a.apple{
+    background: var(--cor-escura); 
+    color: var(--cor-branca);
+    transition: 0.4s;
+}
+.baixar-linha .baixar-col .baixar-box a:hover.google{
+    background-color: var(--cor-escura);
+}
+.baixar-linha .baixar-col .baixar-box a:hover.apple{
+    background-color: var(--cor-principal); 
+}
+.baixar-linha .baixar-col img.baixar-fone{
+    position: absolute;
+    top: 0.5rem;
+    width: 50%;
+    height: auto;
+    transition: 0.5s ease;
+}
+.baixar-linha .baixar-col img.baixar-fone:hover{
+    transform: rotate(-15deg);
+}
+
 
 
 
