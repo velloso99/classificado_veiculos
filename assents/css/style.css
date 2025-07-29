@@ -1401,7 +1401,7 @@ section h1.baixar-titulo::after{
 
 }
 .baixar-linha .baixar-col p.texto{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: var(--cor-escura);
     padding-bottom: 2rem;
 }
@@ -1456,11 +1456,33 @@ section h1.baixar-titulo::after{
 .baixar-linha .baixar-col img.baixar-fone:hover{
     transform: rotate(-15deg);
 }
-
-
-
-
 /*Inicio celular */
+@media(max-width: 1200px){
+    .baixarapp .baixar-linha{
+        flex-direction: column;
+    }
+    .baixar-linha .baixar-col img.baixar-fone{
+        position: inherit;
+        height: auto;
+        margin-top: 2rem;
+    }
+}
+@media(max-width: 768px){
+    .baixar-linha .baixar-col .baixar-box{
+        flex-direction: column;
+    }
+    .baixar-linha .baixar-col img.baixar-fone{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-width: 450px){
+    section h1.baixar-titulo{
+        font-size: 2.4rem;
+    }
+}
+
+
 /*Fim celular */
 /*Fim Baixar app****************************************************/
 
