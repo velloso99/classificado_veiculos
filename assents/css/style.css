@@ -1665,11 +1665,51 @@ section h1.baixar-titulo::after{
         padding: 2rem 7rem;
     }
 }
-
 /*Fim celular */
 /*Fim Rodape****************************************************/
 
+/***************************CATEGORIAS************************************************************/
+/*Incio topo paginas****************************************************/
+.categoria-carros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    min-height: 50vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/mscta/bg-cta-ms.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.categoria-carros h2{
+    font-size: 3.5rem;
+    color: var(--cor-branca);
+}
+.categoria-carros .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: var(--cor-branca);
+    padding-top: 2rem;
+}
+.categoria-carros .links a{
+    font-size: 1.5rem;
+    color: var(--cor-branca);
+}
+.categoria-carros .links a:hover{
+    color: var(--cor-principal);
+}
+.categoria-carros .links span,
+.categoria-carros .links p{
+    font-size: 1.5rem;
+    color: var(--cor-branca);
+}
 
 
+/*Fim  topo paginas****************************************************/
 
 
