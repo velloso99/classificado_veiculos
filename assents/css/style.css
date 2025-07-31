@@ -20,6 +20,7 @@ html{
     --cor-escura: #340474;
     --cor-bg-busca: #f2f2f2f2;
     --s-valor-bg: #141622;
+    --rodape-direitos: #6809e4;
 }
 /*Inicio do topo superior************************************************/
 .super-topo .super-topo-box {
@@ -1488,38 +1489,38 @@ section h1.baixar-titulo::after{
 .rodape{
     background-color: var(--cor-escura);
 }
-.rodape .roape-linha{
+.rodape .rodape-linha{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2rem;
     padding: 2rem 16rem;
 }
-.roape-linha .rodape-col img{
+.rodape-linha .rodape-col img{
     width: 200px;
     height: auto;
     margin-top: 2rem;
     margin-bottom: 1rem;
     border-radius: 5px;
 }
-.roape-linha .rodape-col p{
+.rodape-linha .rodape-col p{
     font-size: 1.3rem;
     color: var(--cor-branca);
     padding-bottom: 2.5rem;
 }
-.roape-linha .rodape-col span{
+.rodape-linha .rodape-col span{
     display: block;
     font-size: 1.3rem;
     color: var(--cor-branca);
     padding-bottom: 1rem;
 }
-.roape-linha .rodape-col span i{
+.rodape-linha .rodape-col span i{
     font-size: 15px;
     background: var(--cor-principal);
     padding: 0.5rem;
     margin-right: 5px;
     border-radius: 10px;
 }
-.roape-linha .rodape-col h5{
+.rodape-linha .rodape-col h5{
     position: relative;
     font-size: 1.9rem;
     color: var(--cor-branca);
@@ -1527,7 +1528,7 @@ section h1.baixar-titulo::after{
     padding: 0.5rem;
     margin: 1rem 0;
 }
-.roape-linha .rodape-col h5::before{
+.rodape-linha .rodape-col h5::before{
     content: '';
     position: absolute;
     bottom: 0;
@@ -1546,20 +1547,126 @@ section h1.baixar-titulo::after{
     border-radius: 3px;
     background-color: var(--cor-principal);
 }
-.roape-linha .rodape-col a{
+.rodape-linha .rodape-col a{
     display: block;
     color: var(--cor-branca);
     font-size: 1.6rem;
     padding-top: 1rem;
     transition: 0.4s ease;
 }
-.roape-linha .rodape-col a:hover{
+.rodape-linha .rodape-col a:hover{
     color: var(--cor-principal);
     padding-left: 5px;
 }
+.rodape-linha .rodape-col input{
+    width: 100%;
+    height: 40px;
+    font-size: 1.4rem;
+    color: var(--cor-escura);
+    padding-left: 10px;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+}
+.rodape-linha .rodape-col button{
+    width: 100%;
+    background-color: var(--cor-principal);
+    font-size: 1.6rem;
+    color: var(--cor-branca);
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: 0.4s ease;
+    border-radius: 5px;
+}
+.rodape-linha .rodape-col button:hover{
+    background-color: var(--cor-escura);
+    border: 1 px solid var(--cor-branca);
+}
+.rodape-direitos{
+    background-color: var(--rodape-direitos);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2rem 16rem;
+}
+.rodape-direitos p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-branca);
+    letter-spacing: 1px;
+}
+.rodape-direitos p span{
+    color: var(--cor-principal);
+}
+.rodape .rodape-direitos .rodape-redes{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 1.3rem 15rem;
+    background-color: var(--cor-principal);
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 5% 100%);
+}
+.rodape .rodape-direitos .rodape-redes i{
+    font-size: 1.6rem;
+    color: var(--cor-principal);
+    background-color: var(--cor-branca);
+    margin-left: 20px;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.rodape .rodape-direitos .rodape-redes i:hover{
+    transform: scale(1.1);
+}
+/*Inicio celular */
+@media(max-width: 1390px){
+    .rodape .rodape-direitos .rodape-redes{
+        padding: 1.3rem 5rem;
+    }
+}
+@media(max-width: 1150px){
+    .rodape .rodape-direitos .rodape-redes{
+        background: none;
+        position: inherit;
+        padding: 1.3rem 0;
+    }
+    .rodape .rodape-direitos{
+        flex-direction: column;
+    }
+    .rodape .roape-linha{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(max-width: 991px){
+    .rodape .rodape-direitos {
+        padding: 2rem 10rem;
+    }
+    .rodape .roape-linha{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 2rem 10rem;
+    }
+}
+@media(max-width: 768px){
+    .rodape .rodape-direitos {
+        padding: 2rem 10rem;
+    }
+    .rodape .roape-linha{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width: 600px){
+    .rodape .roape-linha{
+        grid-template-columns: 1fr;
+        padding: 2rem 7rem ;
+    }
+    .rodape .rodape-direitos {
+        padding: 2rem 7rem;
+    }
+}
 
-
-
+/*Fim celular */
 /*Fim Rodape****************************************************/
 
 
