@@ -1869,13 +1869,44 @@ section h1.baixar-titulo::after{
         padding: 2.4rem 3rem;
     }
 }
-
-
-
-
-
-
-
-
 /*Fim celular */
 /*Fim filtro e veiculos ****************************************************/
+
+/*Inicio Listagem de Veiculos ****************************************************/
+.carrosRecentes .cr-linha.linha.Listagem-carros{
+    display: block;
+}
+.carrosRecentes .cr-linha.linha.Listagem-carros .cr-col{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+.carrosRecentes .cr-linha.linha.Listagem-carros .cr-col .img-cr{
+    flex: 1 1 15rem;
+    width: 100%;
+    height: auto;
+}
+.carrosRecentes .cr-linha.linha.Listagem-carros .cr-col .listam{
+    flex: 1 1 30rem;
+}
+.carrosRecentes .cr-linha.linha.Listagem-carros .cr-col  .listam .cr-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+
+/*Inicio celular */
+/*Fim celular */
+/*Fim Listagem de Veiculos ****************************************************/
+
+
+
