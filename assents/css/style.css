@@ -1711,6 +1711,17 @@ section h1.baixar-titulo::after{
 /*Fim  topo paginas****************************************************/
 
 /*Inicio filtro e veiculos ****************************************************/
+.carrosRecentes .cr-linha.linha{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+
+
+
+
+
 
 
 
