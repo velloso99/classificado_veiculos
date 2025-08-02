@@ -1716,6 +1716,159 @@ section h1.baixar-titulo::after{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1.5rem;
 }
+.carrosRecentes.cats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.carrosRecentes.cats .col-1{
+    flex: 1 1 2rem;
+    width: 200px;
+    text-align: justify;
+}
+.carrosRecentes.cats .col-2{
+    flex: 1 1 60rem; 
+}
+.carrosRecentes.cats .cr-col-2 .img-cr{
+    height: auto;
+}
+.carrosRecentes.cats .col-1 h5{
+    position: relative;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+}
+.carrosRecentes.cats .col-1 h5::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 70px;
+    height: 3px;
+    background-color: var(--cor-principal);
+    border-radius: 3px;
+}
+.carrosRecentes.cats .col-1 .filtrobusca{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 1rem;
+}
+.carrosRecentes.cats .col-1 .filtrobusca .fitro-cat{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 1.4rem;
+    border: 1px solid var(--cor-escura);
+    border-radius: 5px;
+}
+.carrosRecentes.cats .col-1 .filtrobusca i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1rem;
+    color: var(--cor-principal);
+}
+.carrosRecentes.cats .col-1 .caixabusca{
+    font-size: 1.4rem;
+    color: var(--cor-escura);
+}
+.carrosRecentes.cats .col-1 .caixabusca input{
+    margin-right: 0.5rem;
+    accent-color: var(--cor-principal);
+    margin-bottom: 1.5rem;
+}
+.carrosRecentes.cats .col-1 .cat-col{
+    background-color: var(--cor-branca);
+    margin-bottom: 1rem;
+    padding: 2rem 1.5rem;
+    text-align: justify;
+    box-shadow: 0 0 2px var(--cor-escura);
+    border-radius: 5px;
+}
+.carrosRecentes.cats .col-2 .cat-veiculos-top{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1.5rem;
+    background-color: var(--cor-branca);
+    margin-bottom: 2rem;
+    box-shadow: 0 0 2px var(--cor-escura);
+    border-radius: 5px;
+}
+.carrosRecentes.cats .col-2 .cat-veiculos-top span{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--cor-escura);
+}
+.carrosRecentes.cats .col-2 .cat-veiculos-top i{
+    font-size: 2rem;
+    margin-right: 0.3rem;
+    color: var(--cor-escura);
+}
+.carrosRecentes.cats .col-2 .cat-veiculos-top i.grade{
+    color: var(--cor-principal);
+    padding: 5px;
+    border: 1px solid var(--cor-principal);
+    cursor: pointer;
+}
+.carrosRecentes.cats .col-2 .cat-veiculos-top select{
+    font-size: 1.3rem;
+    color: var(--cor-escura);
+    padding: 1rem 2rem;
+    border: 1px solid var(--cor-principal);
+    border-radius: 4px;
+}
+.carrosRecentes.cats .col-2 .paginacao{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+}
+.carrosRecentes.cats .col-2 .paginacao span{
+    font-size: 1.5rem;
+    color: var(--cor-branca);
+    background-color: var(--cor-principal);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.carrosRecentes.cats .col-2 .paginacao span.p-numero{
+    background-color: var(--cor-escura);
+    transition: 0.4s ease;
+}
+.carrosRecentes.cats .col-2 .paginacao span.p-numero:hover{
+    background-color: var(--cor-principal);
+}
+/*Inicio celular */
+@media(max-width: 991px){
+    .carrosRecentes .cr-linha.linha{
+        grid-template-columns: 1fr 1fr;
+    }
+    .carrosRecentes.cats .cr-col-2 .img-cr{
+    height: auto;
+    }
+}
+@media(max-width: 680px){
+    .carrosRecentes .cr-linha.linha{
+        grid-template-columns: 1fr ;
+    }
+    .carrosRecentes.cats .col-1{
+        flex: 1 1 2rem;
+        width: 100%;
+    }
+}
+@media(max-width: 420px){
+    section{
+        padding: 2.4rem 3rem;
+    }
+}
 
 
 
@@ -1724,5 +1877,5 @@ section h1.baixar-titulo::after{
 
 
 
-
+/*Fim celular */
 /*Fim filtro e veiculos ****************************************************/
