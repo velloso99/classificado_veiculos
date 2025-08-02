@@ -1896,15 +1896,33 @@ section h1.baixar-titulo::after{
     padding-top: 1rem;
     padding-bottom: 1.5rem;
 }
-
-
-
-
-
-
-
-
+.carrosRecentes .cr-linha.linha.Listagem-carros .cr-col  .listam p.texto{
+    font-size: 1.3rem;
+    color: var(--cor-escura);
+    padding-bottom: 1rem;
+}
 /*Inicio celular */
+@media(max-width: 800px){
+    .carrosRecentes .cr-linha.linha.Listagem-carros .cr-col{
+        flex-wrap: wrap;
+    }
+    .carrosRecentes .cr-linha.linha.Listagem-carros .cr-col .img-cr{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-width: 550px){
+    .carrosRecentes .cr-linha.linha.Listagem-carros .cr-col  .listam .cr-info{
+        
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    
+}
+
+
+
+
 /*Fim celular */
 /*Fim Listagem de Veiculos ****************************************************/
 
