@@ -1922,7 +1922,13 @@ section h1.baixar-titulo::after{
 /*Fim Listagem de Veiculos ****************************************************/
 
 /*Inicio  ver anuncio***************************************************/
-
+.slider{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 3rem;
+    background-color: var(--cor-bg-busca);
+}
 
 
 
