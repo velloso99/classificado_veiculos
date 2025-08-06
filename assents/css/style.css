@@ -2022,11 +2022,29 @@ section h1.baixar-titulo::after{
     border-radius: 10px;
     opacity: 1;
 }
-
-
-
-
-
+.slider .slide-1 .col-1 .anuncio-linha{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.slide-1 .col-1 .anuncio-linha .anuncio-box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.slide-1 .col-1 .anuncio-linha .anuncio-box i{
+    font-size: 1.9rem;
+    color: var(--cor-principal);
+}
+.slide-1 .col-1 .anuncio-linha .anuncio-box span {
+    font-size: 1.2rem;
+    color: var(--cor-escura);
+}
+.slide-1 .col-1 .anuncio-linha .anuncio-box p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--cor-escura);
+}
 
 
 
